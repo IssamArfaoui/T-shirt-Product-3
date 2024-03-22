@@ -16,7 +16,7 @@ body .container {
 .parent {
     width: 850px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
 }
 /* Start  images  */
@@ -24,6 +24,7 @@ body .container {
 .parent .photos {
     text-align: center;
     width: 50%;
+    padding-top: 44px;
 }
 .parent img {
     width: 400px;
@@ -68,7 +69,7 @@ body .container {
 }
 .text .information b {
     display: none;
-    width: 320px;
+    width: 100%;
     font-size: 14px;
     text-align: center;
 }
